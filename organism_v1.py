@@ -78,7 +78,7 @@ def calc_heading(org, food):
 
 
 def plot_frame(settings, organisms, foods, gen, time):
-    fig, ax = plt.subplots()
+    fig, ax = plt.subplots() 
     fig.set_size_inches(9.6, 5.4)
 
     plt.xlim([settings['x_min'] + settings['x_min'] * 0.25, settings['x_max'] + settings['x_max'] * 0.25])
@@ -102,7 +102,7 @@ def plot_frame(settings, organisms, foods, gen, time):
     plt.figtext(0.025, 0.90,r'T_STEP: '+str(time))
 
     plt.savefig(str(gen)+'-'+str(time)+'.png', dpi=100)
-##    plt.show()
+    plt.show()
 
 
 def evolve(settings, organisms_old, gen):
