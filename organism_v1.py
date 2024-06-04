@@ -56,11 +56,11 @@ settings['x_max'] =  2.0        # arena eastern border
 settings['y_min'] = -2.0        # arena southern border
 settings['y_max'] =  2.0        # arena northern border
 
-settings['plot'] = False        # plot final generation?
+settings['plot'] = True        # plot final generation?
 
 # ORGANISM NEURAL NET SETTINGS
 settings['inodes'] = 1          # number of input nodes
-settings['hnodes'] = 5          # number of hidden nodes
+settings['hnodes'] = 10          # number of hidden nodes
 settings['onodes'] = 2          # number of output nodes
 
 #--- FUNCTIONS ----------------------------------------------------------------+
